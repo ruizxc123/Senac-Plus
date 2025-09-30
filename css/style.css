@@ -1,0 +1,20 @@
+:root {
+    --cor-de-fundo: #0B0A14;
+    --Branco-pricipal: #FFFFFFFF;
+    --Botao-azul: #167BF7;
+    --cinza-secundario: #C0C0C0;
+    --fonte-pricipal: "Inter";
+}
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--Branco-pricipal);
+    font-family: var(--Branco-pricipal) ;
+    font-size: 1rem;
+    font-weight: 400;
+}
