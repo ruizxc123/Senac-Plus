@@ -1,3 +1,4 @@
+/* Cores............. */
 :root {
     --cor-de-fundo: #0B0A14;
     --Branco-pricipal: #FFFFFFFF;
@@ -7,14 +8,97 @@
 }
 
 * {
-    margin: 0 !important;
-    padding: 0 !important;
+    margin: 0;
+    padding: 0;
 }
 
-body{
+/* Corpo da pagina */
+body {
     background-color: var(--cor-de-fundo);
     color: var(--Branco-pricipal);
-    font-family: var(--Branco-pricipal) ;
+    font-family: var(--fonte-pricipal);
     font-size: 1rem;
     font-weight: 400;
+}
+
+/* ................................................ */
+.principal {
+    background-image: url("../img/backgroud.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__caixa {
+    margin: 0 10rem;
+}
+
+.container__titulo {
+    font-size: 1.75rem;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__botao {
+    background-color: var(--Botao-azul);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: var(--Branco-pricipal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+.container__botao--sencudario {
+    background-color: transparent;
+    border: 2px solid var(--Branco-pricipal);
+}
+
+/* ....................... */
+.secundario {
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.secundario__imagem {
+    width: 80%;
+}
+
+.container__descricao {
+    padding: 2rem;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--Branco-pricipal);
+    margin-bottom: 0.1rem;
+}
+
+.descricao__texto {
+    color: var(--cinza-secundario);
+}
+
+.terceiro {
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.container__botao--terceiro {
+    background-color: var(--Botao-azul);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: var(--Branco-pricipal);
+    display: block;
+    text-decoration: none;
+    margin: 1rem 28rem 0 0;
 }
