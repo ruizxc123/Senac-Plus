@@ -63,7 +63,7 @@ body {
     border: 2px solid var(--Branco-pricipal);
 }
 
-/* ....................... */
+/*  ....................... */
 .secundario {
     align-items: center;
     margin: 0 10rem;
@@ -93,12 +93,62 @@ body {
     margin: 0 10rem;
 }
 
-.container__botao--terceiro {
-    background-color: var(--Botao-azul);
-    border-radius: 0.5rem;
-    padding: 1rem;
+.secundario__botao {
+    margin-top: 0.3rem;
+    display: inline-block;
+}
+
+/* Dispositivos........................... */
+.setor {
+    margin: 2rem 10rem;
+    
+}
+
+.setor__platafoma {
+    height: 30vh;
+    padding: 5rem;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    text-align: center;
+}
+
+.setor__titulo {
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
     color: var(--Branco-pricipal);
-    display: block;
+    margin-bottom: 0.1rem;
+}
+.setor__texto{
+    color: var(--cinza-secundario);
+}
+
+.setor__imagem {
+    width: 80%;
+}
+
+/* ................................. */
+.rodape{
+    text-align: center;
+    margin: 0 2rem 4rem 2rem ;
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 1rem;
+}
+
+.rodape__link{
+    margin-left: 1rem;
+    font-size: 700;
     text-decoration: none;
-    margin: 1rem 28rem 0 0;
+    color: var(--Branco-pricipal);
+}
+
+.rodape__texto{
+    color: var(--cinza-secundario);
+    margin-top: 2rem;
 }
